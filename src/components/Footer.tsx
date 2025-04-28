@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram, Facebook, YouTube } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About column */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Школьный лагерь "Солнышко"</h3>
+            <h3 className="text-xl font-bold mb-4">Летний лагерь "ШИК"</h3>
             <p className="text-gray-300 mb-4">
-              Мы создаем яркие воспоминания и помогаем детям расти и развиваться в дружеской атмосфере.
+              Школа Идеальных Каникул — место, где дети находят новых друзей, развиваются и получают яркие эмоции каждый день.
             </p>
             <div className="flex items-center mt-4">
-              <span className="text-primary text-2xl font-bold">Солнышко</span>
+              <span className="text-primary text-2xl font-bold">ШИК</span>
             </div>
           </div>
 
@@ -65,43 +65,39 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-primary flex-shrink-0" />
-                <span className="text-gray-300">camp@sunshine.ru</span>
+                <span className="text-gray-300">info@shik-camp.ru</span>
               </li>
               <li className="flex items-start">
                 <Clock className="h-5 w-5 mr-2 text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Пн-Пт: 8:00 - 19:00<br />Сб-Вс: Выходной</span>
+                <span className="text-gray-300">Пн-Пт: 9:00 - 18:00<br />Сб: 10:00 - 15:00<br />Вс: Выходной</span>
               </li>
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Social */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Оставайтесь на связи</h3>
+            <h3 className="text-xl font-bold mb-4">Социальные сети</h3>
             <p className="text-gray-300 mb-4">
-              Подпишитесь на нашу рассылку, чтобы получать новости о наших программах и мероприятиях.
+              Следите за новостями лагеря в социальных сетях и присоединяйтесь к нашему сообществу.
             </p>
-            <form className="mt-4">
-              <div className="flex flex-col space-y-3">
-                <input
-                  type="email"
-                  placeholder="Ваш email"
-                  className="px-4 py-2 bg-gray-800 border border-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-                <button
-                  type="submit"
-                  className="px-4 py-2 bg-primary text-white rounded-md hover:bg-opacity-90 transition-colors"
-                >
-                  Подписаться
-                </button>
-              </div>
-            </form>
+            <div className="flex space-x-4 mt-4">
+              <a href="#" className="h-10 w-10 rounded-full bg-primary flex items-center justify-center hover:bg-opacity-80 transition-colors">
+                <Instagram className="h-5 w-5 text-white" />
+              </a>
+              <a href="#" className="h-10 w-10 rounded-full bg-primary flex items-center justify-center hover:bg-opacity-80 transition-colors">
+                <Facebook className="h-5 w-5 text-white" />
+              </a>
+              <a href="#" className="h-10 w-10 rounded-full bg-primary flex items-center justify-center hover:bg-opacity-80 transition-colors">
+                <YouTube className="h-5 w-5 text-white" />
+              </a>
+            </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Школьный лагерь "Солнышко". Все права защищены.
+              © {currentYear} Летний лагерь "ШИК". Все права защищены.
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-4">

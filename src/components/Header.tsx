@@ -16,8 +16,8 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-primary">Солнышко</span>
-              <span className="ml-2 text-sm font-medium text-muted-foreground">школьный лагерь</span>
+              <span className="text-2xl font-bold text-primary">ШИК</span>
+              <span className="ml-2 text-sm font-medium text-muted-foreground">летний лагерь</span>
             </Link>
           </div>
 

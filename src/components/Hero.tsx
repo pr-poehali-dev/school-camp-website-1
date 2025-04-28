@@ -2,45 +2,45 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="relative bg-gradient-to-b from-blue-50 to-white">
+    <div className="relative bg-gradient-to-b from-primary/10 to-white">
       <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
               <span className="block text-primary">Летние каникулы</span>
-              <span className="block">в лагере "Солнышко"</span>
+              <span className="block">в лагере "ШИК"</span>
             </h1>
             <p className="mt-6 text-xl text-gray-500">
-              Безопасная и увлекательная среда для развития, отдыха и новых друзей. Наша миссия — сделать лето вашего ребенка незабываемым!
+              Школа Идеальных Каникул – безопасная и увлекательная среда для активного отдыха и новых друзей. Каждый день — это новые впечатления!
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" className="text-lg px-8">Записаться сейчас</Button>
               <Button variant="outline" size="lg" className="text-lg px-8">
-                Подробнее о программах
+                Наши программы
               </Button>
             </div>
             <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
               <div className="bg-white shadow-sm rounded-lg p-4 flex items-center">
-                <div className="text-primary text-3xl font-bold mr-2">10+</div>
-                <div className="text-sm">лет опыта работы</div>
+                <div className="text-primary text-3xl font-bold mr-2">12+</div>
+                <div className="text-sm">лет работы</div>
               </div>
               <div className="bg-white shadow-sm rounded-lg p-4 flex items-center">
-                <div className="text-primary text-3xl font-bold mr-2">500+</div>
+                <div className="text-primary text-3xl font-bold mr-2">600+</div>
                 <div className="text-sm">счастливых детей</div>
               </div>
               <div className="bg-white shadow-sm rounded-lg p-4 flex items-center">
-                <div className="text-primary text-3xl font-bold mr-2">20+</div>
-                <div className="text-sm">опытных педагогов</div>
+                <div className="text-primary text-3xl font-bold mr-2">25+</div>
+                <div className="text-sm">активностей</div>
               </div>
             </div>
           </div>
           <div className="relative h-64 sm:h-72 md:h-96 lg:h-full">
             <img
-              src="https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Дети в летнем лагере"
               className="absolute inset-0 w-full h-full object-cover rounded-xl shadow-xl"
             />
-            <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-secondary/20 to-transparent rounded-xl"></div>
           </div>
         </div>
       </div>
